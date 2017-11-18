@@ -1,0 +1,47 @@
+{
+  "manifest_version": 2,
+  "name": "Switch Debug View (for Codepen)",
+  "version": "1.0",
+  "description": "Easier debugging of your codepens. Adds a button to switch between Debug and Editor view in Codepen. Opens the tab if it's not open already. Inspired by Codopen ",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "48": "icon/48.png",
+    "96": "icon/96.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon/16.png",
+      "32": "icon/32.png",
+      "64": "icon/64.png"
+    },
+    "default_title": "Switch Codepen View",
+    "theme_icons": [
+      {
+        "light": "icon/16-light.png",
+        "dark": "icon/16.png",
+        "size": 16
+      },
+      {
+        "light": "icon/32-light.png",
+        "dark": "icon/32.png",
+        "size": 32
+      },
+      {
+        "light": "icon/64-light.png",
+        "dark": "icon/64.png",
+        "size": 64
+      }
+    ]
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "author": "Erick Madrigal",
+  "homepage_url": "https://debugviewfcdp.erickmadrigal.me",
+  "developer": {
+    "name": "Erick Madrigal",
+    "url": "https://erickmadrigal.me/debugviewfcdp"
+  }
+}
